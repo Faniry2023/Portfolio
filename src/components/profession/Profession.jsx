@@ -19,6 +19,12 @@ const rolesData = [
     description:
       "Je modélise les besoins avec UML et Figma, puis je conçois des bases de données fiables (SQL Server, MySQL) pour garantir des applications robustes et bien structurées.",
   },
+  {
+    id: 3,
+    title: "Déploiement & DevOps",
+    description:
+      "Je déploie moi-même mes projets (ASP.NET Core, Angular, Spring Boot) via GitHub et Docker, sur des hébergeurs comme Railway, Render, MonsterASP.NET et SmarterASP.NET, avec mise en production de bases MySQL et SQL Server.",
+  },
 ];
 
 const Profession = () => {
@@ -46,7 +52,7 @@ const Profession = () => {
           href="mailto:tinafaniry0802@gmail.com"
           className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
         >
-          Dites Bonjour !
+          Contact
         </a>
       </div>
       <div className="">

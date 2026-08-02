@@ -47,9 +47,10 @@ const Introduction = () => {
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:tinafaniry0802@gmail.com"
+              href={`${import.meta.env.BASE_URL}CV-Faniry-Rafanomezantsoa.pdf`}
+              download="CV-Faniry-Rafanomezantsoa.pdf"
             >
-              Dites Bonjour !
+              Télécharger mon CV
             </a>
           </p>
         </div>

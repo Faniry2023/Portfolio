@@ -1,6 +1,7 @@
 import person from "../../assets/images/person2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
 
 const Profile = () => {
@@ -52,7 +53,7 @@ const Profile = () => {
               que SQL Server et MySQL pour les bases de données.
             </p>
           </div>
-          <div className="mt-8 flex max-md:justify-center">
+          <div className="mt-8 flex flex-wrap gap-3 max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
               href="#portfolio"
@@ -66,6 +67,13 @@ const Profile = () => {
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} /> Voir mon GitHub
+            </a>
+            <a
+              className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
+              href={`${import.meta.env.BASE_URL}CV-Faniry-Rafanomezantsoa.pdf`}
+              download="CV-Faniry-Rafanomezantsoa.pdf"
+            >
+              <FontAwesomeIcon icon={faDownload} /> Télécharger mon CV
             </a>
           </div>
         </div>
