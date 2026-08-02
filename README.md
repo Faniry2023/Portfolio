@@ -1,4 +1,4 @@
-# d Portfolio de Faniry Rafanomezantsoa
+# Portfolio de Faniry Rafanomezantsoa
 
 Bienvenue sur mon portfolio personnel, un espace qui présente mon parcours, mes compétences et mes réalisations dans le domaine de l’informatique.
 
